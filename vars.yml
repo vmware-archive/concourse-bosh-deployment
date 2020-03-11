@@ -1,0 +1,19 @@
+deployment_name: concourse
+
+external_host: ((concourse_url))
+external_url: https://((concourse_url))
+
+web_vm_type: large.cpu
+db_vm_type: large
+db_persistent_disk_type: 102400
+worker_vm_type: xlarge.disk
+
+azs:
+- us-central1-a
+- us-central1-b
+- us-central1-c
+
+network_name: management
+web_instances: 1
+worker_instances: 3
+
