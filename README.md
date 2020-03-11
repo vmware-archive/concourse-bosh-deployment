@@ -33,4 +33,4 @@ Its main purpose is to offer a simple way to deploy Concourse v5.5.8 (cluster on
       https://bosh.io/d/stemcells/bosh-google-kvm-ubuntu-xenial-go_agent?v=621.59
     ```
 
-1. Execute the script `deploy.sh` to kick off a bosh deployment that will result in a running Concourse and accompanying credhub and uaa.
+1. Execute the script `deploy.sh` to kick off the bosh deployment.
