@@ -11,7 +11,6 @@ bosh -d concourse deploy concourse.yml \
   -o operations/tls-vars.yml \
   -o operations/uaa.yml \
   -o operations/credhub-colocated.yml \
-  -o operations/offline-releases.yml \
   -o operations/backup-atc-colocated-web.yml \
   -o operations/secure-internal-postgres.yml \
   -o operations/secure-internal-postgres-bbr.yml \
