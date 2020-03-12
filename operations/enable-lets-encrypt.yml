@@ -1,3 +1,6 @@
 - type: replace
   path: /instance_groups/name=web/jobs/name=web/properties/lets_encrypt?/enabled
   value: true
+- type: replace
+  path: /instance_groups/name=web/jobs/name=web/properties/lets_encrypt?/acme_url
+  value: https://acme-v02.api.letsencrypt.org/directory
