@@ -4,7 +4,7 @@
 
 This repository is derived from https://github.com/concourse/concourse-bosh-deployment
 
-Its main purpose is to offer a simple way to deploy Concourse v5.5.8 (cluster only) for Platform Automation (i.e. with a Credhub and Uaa), on top of a pre-configured Ops Manager and BOSH Director on GCP.
+Its main purpose is to offer a simple way to deploy Concourse v5.5.x (cluster only) for Platform Automation (i.e. with a Credhub and Uaa), on top of a pre-configured Ops Manager and BOSH Director on GCP.
 
 ## Assumptions
 
