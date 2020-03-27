@@ -31,8 +31,8 @@ Its main purpose is to offer a simple way to deploy Concourse v5.5.x (cluster on
 1. Upload latest 621 family stemcell for Xenial
 
     ```bash
-    bosh upload-stemcell --sha1 20421205700e3adad54316a19ab88d64913b815a \
-      https://bosh.io/d/stemcells/bosh-google-kvm-ubuntu-xenial-go_agent?v=621.59
+    bosh upload-stemcell --sha1 8a91be2437e1c37991e601c0869e4d95a023f704 \
+      https://bosh.io/d/stemcells/bosh-google-kvm-ubuntu-xenial-go_agent?v=621.61
     ```
 
 1. Execute the script `deploy.sh` to kick off the bosh deployment
