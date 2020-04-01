@@ -19,7 +19,7 @@ Its main purpose is to offer a simple way to deploy Concourse v5.5.x (cluster on
 1. Create a user in the BOSH Credhub for Concourse basic auth
 
     ```bash
-    credhub generate -n /p-bosh/concourse/local_user -t user -z admin
+    credhub generate --name=/p-bosh/concourse/local_user --type=user --username=admin
     ```
 
 1. Interpolate the file `vars.yml.template`
